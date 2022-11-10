@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <img class="logo" src="./img/logo.svg" alt="img">
+                <nav class="header__nav">
+                    <label class="header__nav-label" for="gam">
+                        <div class="header__nav-icon"><svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="33" height="3.83721" fill="black"/>
+                            <rect y="7.67432" width="33" height="3.83721" fill="black"/>
+                            <rect y="15.3486" width="33" height="3.83721" fill="black"/>
+                            </svg></div>
+                    </label>
+                    <input class="header__nav-input" type="checkbox" id="gam">
+                    <ul class="header__nav-row">
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="/">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./pages/about.html">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./pages/works.html">Works</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./pages/blog.html">Blog</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="home-page">
+            <section>
+                <div class="container">
+                    <h2>HOME PAGE</h2>
+                </div>
+            </section>
+            <section></section>
+            <section></section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <div class="title footer__title">Need a project?</div>
+               <a class="h6 footer__contact" href="tel:2395550108">(239) 555-0108</a>
+               <a class="h6 footer__contact" href="mailto:tanya.hill@example.com">tanya.hill@example.com</a>
+                </div>
+                <ul class="footer__social-row">
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__social-link" href="">Facebook</a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__social-link" href="">Instagram</a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__social-link" href="">Dribbble</a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__social-link" href="">Linkedin</a>
+                    </li>
+                </ul>
+                <p class="h9 footer__description">© Copyright Manifest Theme. Allrights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.about{
+    max-width: 1119px;
+    padding: 128px 0;
+    margin: 0 auto;
+
+    @media (max-width: $tablet){
+        padding: 64px 16px;
+    
+       
+    }
+
+    &__container{
+        display: flex;
+        gap: 144px;
+
+        @media (max-width: $tablet) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 48px;
+        }
+    }
+
+    &__title{
+margin-bottom: 39px;
+
+@media (max-width: $tablet){
+    margin-bottom: 48px;
+}
+    }
+
+    &__post{
+        margin-bottom: 19px;
+        max-width: 431px;
+        
+        @media (max-width: $tablet){
+            margin-bottom: 24px;
+        }
+    }
+
+    &__image{
+        max-width: 225px;
+    }
+
+    &__content-discribe{
+        max-width: 540px;
+    }
+
+    &__content-text{
+        margin-bottom: 67px;
+
+        @media (max-width: $tablet){
+            margin-bottom: 48px;
+        }
+    }
+}
